@@ -1,0 +1,257 @@
+body{
+    background-color: rgb(234, 229, 229);
+     font-family: "Fira Sans", sans-serif;
+    /* width: 80%; */
+}
+.mini-body{
+    margin: 0 10%;
+ width: 80%;
+}
+.nav-links> ul{
+
+    display: flex;
+    padding: 0%;
+    gap: 87%;
+}
+
+ul > a {
+  text-decoration: none;
+  color: black;  
+  font: bolder;
+  /* padding-left: -2%; */
+}
+ul > button {
+    color: green;
+    border-color:(1px solid green);
+    padding: 4px;
+}
+/* hero section from here  */
+
+.hero{
+    /* width: 80%; */
+    /* margin: 5%; */
+    padding: 5%;
+    background-color: #c6E4D6;
+    display: flex;
+    border-radius: 8px;
+}
+
+.about{
+      flex:3;                                             
+      font-size: 2rem;
+
+}
+
+.about> h2{
+    margin-top: 1%;
+}
+.explore{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 3%;
+    border-radius: 8px;
+
+}
+.flag{
+    height: 400px;
+    width: 40%;
+}
+.pillars{
+    margin-top: 5%;
+}
+.pillarCarts{
+    display: flex;
+    gap: 2%;
+    
+}
+.pillar{
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 3%;
+    margin-top: 2%;
+}
+.pillar> h5 {
+  font-size: 1rem;  
+}
+.p{
+    opacity: 0.5;
+    font-size: smaller;
+    margin-bottom: 3%;
+}
+/* the vision of future */
+
+.vision{
+    margin-top:5% ;
+}
+.card-blue{
+    background-color: #8db7ff;
+}
+.card-green{
+    background-color:#c6E4D6 ;
+}
+.card-orange{
+    background-color: #f7ebcf;
+}
+.card-blue2{
+    background-color: #5470ff;
+}
+.card-orange2{
+    background-color: #ffc239;
+}
+
+.Dr{
+    background-image: url("../assets/quote-bg.png");
+    background-repeat:no-repeat;
+    background-color: white;
+    margin-top: 3%;
+    padding: 2%;
+    border-radius: 8px;
+}
+/* opinion */
+ .head{
+    background-color: white;
+ }
+.questions{
+grid-column: span 2;
+ background-color: #c6E4D6;
+}
+#flx {
+ display: flex;
+}
+#flx > h3{
+    padding: 1%;
+flex: 2;
+}
+#flx>h4{
+    padding: 1%;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    grid-template-rows: repeat(4 , 1fr);
+    padding: 3%;
+    background-color: white;
+}
+.cards > div{
+    border: 1px solid hsla(0,0%, 0% , 0.3) ;
+    
+}
+.no{
+    border: solid red;
+
+}
+.no > button{
+    background-color: #c6E4D6;
+ margin-left: 20%;
+ margin-top: 10%;
+
+}
+
+/* recent  news */
+.recent > div{
+    display: flex;
+    margin-top: 2%;
+    background-color: white;
+    padding: 3%;
+}
+.satelite > img{
+    margin-top: 4%;
+ height: 200px;
+ border-radius: 18px;
+ margin-left: 3%;
+
+}
+.satelite > div {
+    margin-left: 5%;
+}
+
+/* donate today */
+/* sabai kura fit and fine cha except 
+opinion section lai remake garnuparne cha 
+aru all done 
+next time donate section bata suru garne  */
+
+.donate{
+    padding: 2%;
+    text-align: center;
+
+}
+.money{
+    display: grid;
+   grid-template-columns: repeat(4,1fr );
+    padding: 2%;
+    gap: 5%;
+    
+}
+.taka> button{
+
+    height: 158%;
+    padding:18px;
+    border: none;
+    border-radius: 8px;
+    font-size: x-large;
+
+}
+
+.taka :hover{
+    background-color: #c6E4D6;
+    transition: 1s;
+    cursor: pointer;
+}
+.donate> input{
+    margin: auto;
+    width: 80%;
+    height: 40px;
+    margin-top: 5%;
+    display: block;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    font-size: larger;
+    margin-bottom: 3%;
+}
+.donate-btn{
+   height: 40px; 
+   text-align: center;
+   
+}
+
+.subscriber{
+    background-color: #c6E4D6;
+    border-radius: 18px;
+    text-align: center;
+    padding: 5%;
+}
+.testing{
+    display: grid;
+    grid-template-columns: 
+    500px 2fr 100px 1fr;
+    margin-left: 15%;
+}
+.testing > input{
+    height: 35px ;
+    /* width: 60%; */
+    border: none;
+    border-radius: 8px;
+    
+
+}
+.footer{
+   
+    background-color: white;
+    width: 100%;
+    margin-top: 3%;
+    text-align: center;
+}
+.footer > div{
+    padding: 4%;
+}
+.footer>div>hr{
+ width: 50%;
+}
+.links> img{
+    margin: 2%;
+    
+}
